@@ -25,9 +25,9 @@ public class thread1 extends Thread{
 
     @Override
     public void run(){
-        printShit();
+        printingFlag();
     }
-    public synchronized void printShit(){
+    public synchronized void printingFlag(){
         for(int i = a; i < c; i++){
             for(int j = b; j < d; j++){
                 System.out.print(ESC+(i)+"G"+ESC+(j)+"d"+pf.printColor(color));
