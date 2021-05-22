@@ -12,9 +12,9 @@ public class Main {
 
     public static void main(String[] args){
         pf = new PrintFlag();
-        th = new thread1(pf, 0, 0, 50, 6, 1, 10);
-        th2 = new thread1(pf, 0, 6,50,9, 2, 26);
-        th3 = new thread1(pf, 0, 9,50,12, 3 , 33);
+        th = new thread1(pf, 0, 0, 50, 7, 1, 10);
+        th2 = new thread1(pf, 0, 7,50,10, 2, 26);
+        th3 = new thread1(pf, 0, 10,50,13, 3 , 33);
 
         System.out.print(ESC+"2J");
         th.start();
